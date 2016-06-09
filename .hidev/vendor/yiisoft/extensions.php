@@ -12,31 +12,13 @@ return array (
       '@hidev/phpcsfixer' => $vendorDir . '/hiqdev/hidev-php-cs-fixer/src',
     ),
   ),
-  'hiqdev/hidev-scrutinizer' => 
+  'hiqdev/hidev-vendor' => 
   array (
-    'name' => 'hiqdev/hidev-scrutinizer',
+    'name' => 'hiqdev/hidev-vendor',
     'version' => '0.4.0.0',
     'alias' => 
     array (
-      '@hidev/scrutinizer' => $vendorDir . '/hiqdev/hidev-scrutinizer/src',
-    ),
-  ),
-  'hiqdev/hidev-composer' => 
-  array (
-    'name' => 'hiqdev/hidev-composer',
-    'version' => '0.4.0.0',
-    'alias' => 
-    array (
-      '@hidev/composer' => $vendorDir . '/hiqdev/hidev-composer/src',
-    ),
-  ),
-  'hiqdev/hidev-phpunit' => 
-  array (
-    'name' => 'hiqdev/hidev-phpunit',
-    'version' => '0.4.0.0',
-    'alias' => 
-    array (
-      '@hidev/phpunit' => $vendorDir . '/hiqdev/hidev-phpunit/src',
+      '@hidev/hiqdev' => $vendorDir . '/hiqdev/hidev-vendor/src',
     ),
   ),
   'hiqdev/hidev-license' => 
@@ -48,15 +30,6 @@ return array (
       '@hidev/license' => $vendorDir . '/hiqdev/hidev-license/src',
     ),
   ),
-  'hiqdev/hidev-travis' => 
-  array (
-    'name' => 'hiqdev/hidev-travis',
-    'version' => '0.4.0.0',
-    'alias' => 
-    array (
-      '@hidev/travis' => $vendorDir . '/hiqdev/hidev-travis/src',
-    ),
-  ),
   'hiqdev/hidev-readme' => 
   array (
     'name' => 'hiqdev/hidev-readme',
@@ -64,24 +37,6 @@ return array (
     'alias' => 
     array (
       '@hidev/readme' => $vendorDir . '/hiqdev/hidev-readme/src',
-    ),
-  ),
-  'hiqdev/hidev-php' => 
-  array (
-    'name' => 'hiqdev/hidev-php',
-    'version' => '0.4.0.0',
-    'alias' => 
-    array (
-      '@hidev/php' => $vendorDir . '/hiqdev/hidev-php/src',
-    ),
-  ),
-  'hiqdev/hidev-vendor' => 
-  array (
-    'name' => 'hiqdev/hidev-vendor',
-    'version' => '0.4.0.0',
-    'alias' => 
-    array (
-      '@hidev/hiqdev' => $vendorDir . '/hiqdev/hidev-vendor/src',
     ),
   ),
 );

@@ -1,6 +1,8 @@
 {
     "require": {
-        "hiqdev/hidev-php": "*",
+        "hiqdev/hidev-php-cs-fixer": "*",
+        "hiqdev/hidev-license": "*",
+        "hiqdev/hidev-readme": "*",
         "hiqdev/hidev-vendor": "*"
     }
 }

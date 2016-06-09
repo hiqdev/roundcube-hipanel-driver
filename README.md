@@ -1,19 +1,14 @@
 Roundcube Hipanel Driver
 ========================
 
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/roundcube-hipanel-driver/v/stable)](https://packagist.org/packages/hiqdev/roundcube-hipanel-driver)
-[![Total Downloads](https://poser.pugx.org/hiqdev/roundcube-hipanel-driver/downloads)](https://packagist.org/packages/hiqdev/roundcube-hipanel-driver)
-[![Build Status](https://img.shields.io/travis/hiqdev/roundcube-hipanel-driver.svg)](https://travis-ci.org/hiqdev/roundcube-hipanel-driver)
-[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/roundcube-hipanel-driver.svg)](https://scrutinizer-ci.com/g/hiqdev/roundcube-hipanel-driver/)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/roundcube-hipanel-driver.svg)](https://scrutinizer-ci.com/g/hiqdev/roundcube-hipanel-driver/)
+Roundcube Password Driver for HiPanel hosting control panel
 
-## Installation
+## Usage
 
-The preferred way to install this project is through [composer](http://getcomposer.org/download/).
+This driver can use used with the [RoundCube](https://roundcube.net/) webmail software to change the E-Mail password via HiPanel API.
 
-```sh
-php composer.phar create-project "hiqdev/roundcube-hipanel-driver:*" directory2install
-```
+* Put `src/hipanel.php` in the `plugins/password/drivers` directory of your RoundCube installation
+* Set property `password_hipanel_host` to `https://api.ahnames.com/` in your config
 
 ## License
 
