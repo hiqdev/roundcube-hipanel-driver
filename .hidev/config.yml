@@ -1,0 +1,10 @@
+package:
+    type:           project
+    name:           roundcube-hipanel-driver
+    title:          Roundcube Hipanel Driver
+    keywords:       roundcube, hipanel, driver
+    decription:     Roundcube Password Driver for HiPanel hosting control panel
+
+plugins:
+    hiqdev/hidev-php:       "*"
+    hiqdev/hidev-vendor:    "*"

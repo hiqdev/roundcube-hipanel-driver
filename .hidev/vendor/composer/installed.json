@@ -1,0 +1,804 @@
+[
+    {
+        "name": "hiqdev/composer-config-plugin",
+        "version": "0.0.4",
+        "version_normalized": "0.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/composer-config-plugin.git",
+            "reference": "6e76cbc815fadb2323e832c3fe721d83803eed01"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/composer-config-plugin/zipball/6e76cbc815fadb2323e832c3fe721d83803eed01",
+            "reference": "6e76cbc815fadb2323e832c3fe721d83803eed01",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "require-dev": {
+            "composer/composer": "~1.0@dev"
+        },
+        "time": "2016-05-21 14:59:54",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "hiqdev\\ComposerConfigPlugin\\Plugin"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hiqdev\\ComposerConfigPlugin\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "Composer plugin for config assembling",
+        "homepage": "https://github.com/hiqdev/composer-config-plugin",
+        "keywords": [
+            "assembling",
+            "composer",
+            "config",
+            "plugin"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-php-cs-fixer",
+        "version": "0.4.1",
+        "version_normalized": "0.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-php-cs-fixer.git",
+            "reference": "1a534a08deddd1bbdc02ecf1683c7cab9ad74c44"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-php-cs-fixer/zipball/1a534a08deddd1bbdc02ecf1683c7cab9ad74c44",
+            "reference": "1a534a08deddd1bbdc02ecf1683c7cab9ad74c44",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "*@dev",
+            "hiqdev/hidev-composer": "*@dev",
+            "hiqdev/hidev-hiqdev": "*@dev",
+            "hiqdev/hidev-license": "*@dev",
+            "hiqdev/hidev-php": "*@dev",
+            "hiqdev/hidev-phpunit": "*@dev",
+            "hiqdev/hidev-readme": "*@dev",
+            "hiqdev/hidev-scrutinizer": "*@dev",
+            "hiqdev/hidev-travis": "*@dev"
+        },
+        "time": "2016-05-28 15:12:27",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\phpcsfixer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "PHP-CS-Fixer plugin for HiDev",
+        "homepage": "https://github.com/hiqdev/hidev-php-cs-fixer",
+        "keywords": [
+            "hidev",
+            "php-cs-fixer",
+            "plugin"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-scrutinizer",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-scrutinizer.git",
+            "reference": "7c373be641528e935b8cce4810156dcec25f744a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-scrutinizer/zipball/7c373be641528e935b8cce4810156dcec25f744a",
+            "reference": "7c373be641528e935b8cce4810156dcec25f744a",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "dev-master",
+            "hiqdev/hidev-composer": "dev-master",
+            "hiqdev/hidev-hiqdev": "dev-master",
+            "hiqdev/hidev-license": "dev-master",
+            "hiqdev/hidev-php": "dev-master",
+            "hiqdev/hidev-php-cs-fixer": "dev-master",
+            "hiqdev/hidev-phpunit": "dev-master",
+            "hiqdev/hidev-readme": "dev-master",
+            "hiqdev/hidev-travis": "dev-master"
+        },
+        "time": "2016-05-21 14:44:35",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\scrutinizer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "Scrutinizer plugin for HiDev",
+        "homepage": "https://github.com/hiqdev/hidev-scrutinizer",
+        "keywords": [
+            "continuous integration",
+            "hidev",
+            "plugin",
+            "scrutinizer"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-composer",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-composer.git",
+            "reference": "9f414449ecb302e3882145986980db78e711b99f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-composer/zipball/9f414449ecb302e3882145986980db78e711b99f",
+            "reference": "9f414449ecb302e3882145986980db78e711b99f",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "dev-master",
+            "hiqdev/hidev-hiqdev": "dev-master",
+            "hiqdev/hidev-license": "dev-master",
+            "hiqdev/hidev-php": "dev-master",
+            "hiqdev/hidev-php-cs-fixer": "dev-master",
+            "hiqdev/hidev-phpunit": "dev-master",
+            "hiqdev/hidev-readme": "dev-master",
+            "hiqdev/hidev-scrutinizer": "dev-master",
+            "hiqdev/hidev-travis": "dev-master"
+        },
+        "time": "2016-05-21 13:23:25",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\composer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "Composer plugin for HiDev",
+        "homepage": "https://github.com/hiqdev/hidev-composer",
+        "keywords": [
+            "composer",
+            "hidev",
+            "packagist",
+            "plugin"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-phpunit",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-phpunit.git",
+            "reference": "8e6a20867e3b016daaeee8ab0f6a0748313be2b5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-phpunit/zipball/8e6a20867e3b016daaeee8ab0f6a0748313be2b5",
+            "reference": "8e6a20867e3b016daaeee8ab0f6a0748313be2b5",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "dev-master",
+            "hiqdev/hidev-composer": "dev-master",
+            "hiqdev/hidev-hiqdev": "dev-master",
+            "hiqdev/hidev-license": "dev-master",
+            "hiqdev/hidev-php": "dev-master",
+            "hiqdev/hidev-php-cs-fixer": "dev-master",
+            "hiqdev/hidev-readme": "dev-master",
+            "hiqdev/hidev-scrutinizer": "dev-master",
+            "hiqdev/hidev-travis": "dev-master"
+        },
+        "time": "2016-05-21 14:38:39",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\phpunit\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "PHPUnit plugin for HiDev",
+        "homepage": "https://github.com/hiqdev/hidev-phpunit",
+        "keywords": [
+            "hidev",
+            "phpunit",
+            "plugin"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-license",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-license.git",
+            "reference": "8384e0a774a15595e728424e634684bf57a1388d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-license/zipball/8384e0a774a15595e728424e634684bf57a1388d",
+            "reference": "8384e0a774a15595e728424e634684bf57a1388d",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "dev-master",
+            "hiqdev/hidev-composer": "dev-master",
+            "hiqdev/hidev-hiqdev": "dev-master",
+            "hiqdev/hidev-php": "dev-master",
+            "hiqdev/hidev-php-cs-fixer": "dev-master",
+            "hiqdev/hidev-phpunit": "dev-master",
+            "hiqdev/hidev-readme": "dev-master",
+            "hiqdev/hidev-scrutinizer": "dev-master",
+            "hiqdev/hidev-travis": "dev-master"
+        },
+        "time": "2016-05-21 13:37:01",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\license\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "License plugin for HiDev",
+        "homepage": "https://github.com/hiqdev/hidev-license",
+        "keywords": [
+            "hidev",
+            "license",
+            "plugin"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-travis",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-travis.git",
+            "reference": "5bf6e750fa3bcfb50217d2bae22e6ba0a2628b6a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-travis/zipball/5bf6e750fa3bcfb50217d2bae22e6ba0a2628b6a",
+            "reference": "5bf6e750fa3bcfb50217d2bae22e6ba0a2628b6a",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "dev-master",
+            "hiqdev/hidev-composer": "dev-master",
+            "hiqdev/hidev-hiqdev": "dev-master",
+            "hiqdev/hidev-license": "dev-master",
+            "hiqdev/hidev-php": "dev-master",
+            "hiqdev/hidev-php-cs-fixer": "dev-master",
+            "hiqdev/hidev-phpunit": "dev-master",
+            "hiqdev/hidev-readme": "dev-master",
+            "hiqdev/hidev-scrutinizer": "dev-master"
+        },
+        "time": "2016-05-21 14:46:54",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\travis\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "Travis CI plugin for HiDev",
+        "homepage": "https://github.com/hiqdev/hidev-travis",
+        "keywords": [
+            "continuous integration",
+            "hidev",
+            "plugin",
+            "travis"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-readme",
+        "version": "0.4.2",
+        "version_normalized": "0.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-readme.git",
+            "reference": "ea70421f8b00bb3c273b0b829fd0aeeb9e945d5f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-readme/zipball/ea70421f8b00bb3c273b0b829fd0aeeb9e945d5f",
+            "reference": "ea70421f8b00bb3c273b0b829fd0aeeb9e945d5f",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "dev-master",
+            "hiqdev/hidev-composer": "dev-master",
+            "hiqdev/hidev-hiqdev": "dev-master",
+            "hiqdev/hidev-license": "dev-master",
+            "hiqdev/hidev-php": "dev-master",
+            "hiqdev/hidev-php-cs-fixer": "dev-master",
+            "hiqdev/hidev-phpunit": "dev-master",
+            "hiqdev/hidev-scrutinizer": "dev-master",
+            "hiqdev/hidev-travis": "dev-master"
+        },
+        "time": "2016-05-21 14:41:35",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\readme\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "README plugin for HiDev",
+        "homepage": "https://github.com/hiqdev/hidev-readme",
+        "keywords": [
+            "hidev",
+            "plugin",
+            "readme"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-php",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-php.git",
+            "reference": "93b268d1d0ede1cbdd92493c62a15e9bdbd60046"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-php/zipball/93b268d1d0ede1cbdd92493c62a15e9bdbd60046",
+            "reference": "93b268d1d0ede1cbdd92493c62a15e9bdbd60046",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev",
+            "hiqdev/hidev-composer": "*",
+            "hiqdev/hidev-license": "*",
+            "hiqdev/hidev-php-cs-fixer": "*",
+            "hiqdev/hidev-phpunit": "*",
+            "hiqdev/hidev-readme": "*",
+            "hiqdev/hidev-scrutinizer": "*",
+            "hiqdev/hidev-travis": "*"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "dev-master",
+            "hiqdev/hidev-composer": "dev-master",
+            "hiqdev/hidev-hiqdev": "dev-master",
+            "hiqdev/hidev-license": "dev-master",
+            "hiqdev/hidev-php-cs-fixer": "dev-master",
+            "hiqdev/hidev-phpunit": "dev-master",
+            "hiqdev/hidev-readme": "dev-master",
+            "hiqdev/hidev-scrutinizer": "dev-master",
+            "hiqdev/hidev-travis": "dev-master"
+        },
+        "time": "2016-05-21 13:42:26",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\php\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "HiDev config for PHP projects",
+        "homepage": "https://github.com/hiqdev/hidev-php",
+        "keywords": [
+            "config",
+            "hidev",
+            "php"
+        ]
+    },
+    {
+        "name": "hiqdev/hidev-vendor",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hiqdev/hidev-vendor.git",
+            "reference": "3012c843951118424bdaa50b9a478965833db6bb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hiqdev/hidev-vendor/zipball/3012c843951118424bdaa50b9a478965833db6bb",
+            "reference": "3012c843951118424bdaa50b9a478965833db6bb",
+            "shasum": ""
+        },
+        "require": {
+            "hiqdev/composer-config-plugin": "*@dev"
+        },
+        "require-dev": {
+            "hiqdev/hidev": "dev-master",
+            "hiqdev/hidev-composer": "dev-master",
+            "hiqdev/hidev-license": "dev-master",
+            "hiqdev/hidev-php": "dev-master",
+            "hiqdev/hidev-php-cs-fixer": "dev-master",
+            "hiqdev/hidev-phpunit": "dev-master",
+            "hiqdev/hidev-readme": "dev-master",
+            "hiqdev/hidev-scrutinizer": "dev-master",
+            "hiqdev/hidev-travis": "dev-master"
+        },
+        "time": "2016-05-21 12:51:17",
+        "type": "yii2-extension",
+        "extra": {
+            "config-plugin": {
+                "hidev": "src/config/hidev.php"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hidev\\hiqdev\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Naumenko",
+                "email": "silverfire@hiqdev.com",
+                "homepage": "http://silverfire.me/",
+                "role": "Lead backend developer"
+            },
+            {
+                "name": "Andrii Vasyliev",
+                "email": "sol@hiqdev.com",
+                "homepage": "http://hipanel.com/",
+                "role": "Project lead"
+            },
+            {
+                "name": "Andrey Klochok",
+                "email": "tafid@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "Lead frontend developer"
+            },
+            {
+                "name": "Yuriy Myronchuk",
+                "email": "bladeroot@hiqdev.com",
+                "homepage": "http://hiqdev.com/",
+                "role": "QA Lead"
+            }
+        ],
+        "description": "HiQDev vendor configuration for HiDev",
+        "homepage": "https://github.com/hiqdev/hidev-vendor",
+        "keywords": [
+            "config",
+            "hidev",
+            "hiqdev",
+            "vendor"
+        ]
+    }
+]

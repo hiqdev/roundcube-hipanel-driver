@@ -1,0 +1,6 @@
+{
+    "require": {
+        "hiqdev/hidev-php": "*",
+        "hiqdev/hidev-vendor": "*"
+    }
+}
