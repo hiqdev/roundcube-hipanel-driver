@@ -16,6 +16,11 @@ nbproject
 # php-cs-fixer cache
 .php_cs.cache
 
+# PHARs
+php-cs-fixer.phar
+phpunit-skelgen.phar
+phpunit.phar
+
 # vendor dirs
 vendor
 
@@ -24,11 +29,6 @@ composer.lock
 
 # phpunit generated files
 coverage.clover
-
-# PHARs
-php-cs-fixer.phar
-phpunit-skelgen.phar
-phpunit.phar
 
 # Project is not suitable for Packagasit
 composer.json
